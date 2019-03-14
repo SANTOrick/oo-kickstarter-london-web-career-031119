@@ -14,7 +14,7 @@ attr_accessor :title, :backers, :par
 
 def add_backer(backer)
   @backers.push backer
-  @backed_projects.back_project self.title
+  @backed_projects.back_project.push self.title
 end
 
 
