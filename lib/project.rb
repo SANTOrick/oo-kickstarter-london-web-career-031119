@@ -15,4 +15,7 @@ def add_backer(backer)
   @backers.push backer
 end
 
+def push_me(me)
+ @backers.push me
+
 end
