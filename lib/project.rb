@@ -10,7 +10,5 @@ attr_accessor :title, :backers
   end
 
 
-  end
-
 
 end
