@@ -7,6 +7,7 @@ def initialize(name)
   @backed_projects = []
 end
 
-
+def back_project(project)
+  @backed_projects.push project
 
 end
