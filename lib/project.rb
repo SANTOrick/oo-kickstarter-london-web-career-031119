@@ -12,7 +12,7 @@ attr_accessor :title, :backers,
 
 def add_backer(backer)
   @backers.push backer
-  backer.backed_projects(backer)
+  backer.backed_projects(self)
 end
 
 
