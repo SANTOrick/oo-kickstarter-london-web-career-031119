@@ -11,7 +11,7 @@ end
 
 def back_project(project)
   @backed_projects.push project
-  Project.new(@name)
+  Project.par(@name)
 end
 
 
