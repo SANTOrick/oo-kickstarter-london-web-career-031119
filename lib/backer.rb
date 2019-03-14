@@ -7,7 +7,7 @@ attr_accessor :name, :backed_projects
 def initialize(name)
   @name = name
   @backed_projects = []
-  Project.add_backer(@name)
+  project.add_backer(@name)
 end
 
 def back_project(project)
