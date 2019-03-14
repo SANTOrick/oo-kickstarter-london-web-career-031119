@@ -16,7 +16,5 @@ def add_backer(backer)
   @backers.push backer
 end
 
-binding.pry
-puts "sdsa"
 
 end
