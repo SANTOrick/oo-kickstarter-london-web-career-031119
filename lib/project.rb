@@ -9,7 +9,6 @@ attr_accessor :title, :backers, :par
 
   def initialize(title)
     @title = title
-    @backed_projects << title
     @backers = []
   end
 
