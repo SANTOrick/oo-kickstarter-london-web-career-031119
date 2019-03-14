@@ -1,4 +1,6 @@
 require_relative './project.rb'
+require 'pry'
+
 
 class Backer
 attr_accessor :name, :backed_projects
