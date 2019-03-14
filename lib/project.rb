@@ -17,7 +17,6 @@ end
 
 def new (me)
   @backers.push me
-  
 end
 
 end
