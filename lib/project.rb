@@ -13,7 +13,6 @@ attr_accessor :title, :backers
 
 def add_backer(backer)
   @backers.push backer
-  Backer.projects.push backer
 end
 
 end
