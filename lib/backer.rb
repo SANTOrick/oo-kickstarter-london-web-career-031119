@@ -11,7 +11,7 @@ end
 
 def back_project(project)
   @backed_projects.push project
-  Project.@backers.push  self
+  Project.@backers(self)
 end
 
 
