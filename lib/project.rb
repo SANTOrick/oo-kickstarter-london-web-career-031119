@@ -3,9 +3,7 @@ require 'pry'
 
 class Project
 
-attr_accessor :title, :backers, :par
-
-
+attr_accessor :title, :backers,
 
   def initialize(title)
     @title = title
