@@ -1,6 +1,6 @@
 class Projects
 
-attr_accessor
+attr_accessor :title
 
 
 
